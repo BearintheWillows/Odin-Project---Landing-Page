@@ -1,0 +1,63 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 250px;
+    flex-wrap: wrap;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: larger;
+}
+
+/* Top Header */
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+/* Section 1 */
+
+.section-one {
+    display: flex;
+    background-color: #1f2937;
+    padding: 30px 0;
+    gap: 230px;
+    
+}
+
+#fanclubTitle {
+    font-size: larger;
+    font-weight: 800;
+}
+
+#img1 {
+    width: 400px;
+}
+
+
+img {
+    height: 200px;
+    width: 300px;
+}
