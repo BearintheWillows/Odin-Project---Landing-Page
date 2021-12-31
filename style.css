@@ -37,6 +37,11 @@ li {
     
 }
 
+.orangeText {
+    color: orange;
+    font-weight: 800;
+}
+
 /* Section 1 */
 
 .section-one {
@@ -44,7 +49,22 @@ li {
     background-color: #1f2937;
     padding: 30px 0;
     gap: 230px;
+    align-items: center;
     
+}
+
+.section-one-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one-text button {
+    width: 100px;
+    margin-top: 30px;
+    background-color: orange;
+    border-radius: 8px;
+    color: black;
+    height: 30px;
 }
 
 #fanclubTitle {
@@ -53,11 +73,130 @@ li {
 }
 
 #img1 {
+    height: 200px;
     width: 400px;
 }
 
+/* Section two */
 
-img {
-    height: 200px;
-    width: 300px;
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 250px;
+    height: 400px;
+    justify-content: center;
+}
+
+#fanclubTitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.items {
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+}
+
+.items p {
+    text-align: center;
+}
+
+.section-two img {
+    height: 150px;
+    width: 180px;
+    border-radius: 20%;
+    border-color: blue;
+    border-style: solid;
+    border-color: 20px;
+}
+
+/* Section Three */
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 0 340px;
+    height: 400px;
+    align-items: center;
+
+}
+
+.section-three-container {
+    
+}
+
+.section-three p {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+
+#boldText {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+/* Section four */
+
+.section-four {
+    padding: 0 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-four-container {
+    width: 100%;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    height: 100px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.callToActionText p {
+    margin: 0;
+}
+
+.callToActionText p:first-child {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.section-four-container button {
+    width: 100px;
+    border-radius: 5px;
+    background-color: orange;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    height: 25px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+.BITW {
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
